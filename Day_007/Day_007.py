@@ -21,6 +21,7 @@ display=[]
 
 for i in chosen_word:
     display+='_'
+print(f"{' '.join(display)}")
 
 while end_game==False:
     guess=input("guess a letter \n").lower()
