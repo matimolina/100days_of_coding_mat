@@ -11,7 +11,7 @@ end_game=False
 lives=6
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-from hangman_art import logo
+from hangman_art import logo, stages
 print(logo)
 
 
@@ -43,5 +43,4 @@ while end_game==False:
         end_game=True
         print("You Win.")
     # Import the stages from hangman_art.py and make this error go away.
-    from hangman_art import stages
     print(stages[lives])
