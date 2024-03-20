@@ -14,12 +14,12 @@ decisions={'a':a,'b':b}
 print(choice)
 print(data[decisions[choice]])
 
-def win(choice,computer):
-    if data[choice]['follower_count']>data[computer]['follower_count']:
-        return 1
-    else:
-        return -1
+# def win(choice,computer):
+#     if data[choice]['follower_count']>data[computer]['follower_count']:
+#         return 1
+#     else:
+#         return -1
 
-win(choice,b)
+# win(choice,b)
 
 
